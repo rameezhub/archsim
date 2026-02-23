@@ -1,3 +1,15 @@
+
+# What:
+ArchSim is an interactive distributed architecture simulator built with React, TypeScript, Vite, and React Flow that allows users to visually design service-based systems (APIs and Databases), connect them as a directed graph, and simulate load propagation across the architecture in real time.
+# Why:
+The project was created to make distributed systems concepts like load balancing, fan-out architectures, bottlenecks, and capacity limits more intuitive by turning theoretical system design ideas into a visual and interactive learning tool.
+ # How:
+ The simulator performs graph traversal using a breadth-first search (BFS) approach, injects incoming requests per second (RPS) into entry nodes, distributes load across outgoing edges, enforces throughput limits based on node capacity, and highlights overloaded services dynamically, allowing users to observe realistic behavior such as bottleneck formation and load splitting across branches.
+# Who:
+This project is designed for computer engineering students, backend developers, and system design learners who want a hands-on way to understand how distributed systems behave under load, while also serving as a portfolio-ready demonstration of graph algorithms, state management, and interactive system modeling.
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
